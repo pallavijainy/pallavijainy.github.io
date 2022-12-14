@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e6f5153b.css",
-    "main.js": "/static/js/main.f7c05868.js",
+    "main.js": "/static/js/main.d2ef1d69.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Pallavi_Jain_Resume (1).pdf": "/static/media/Pallavi_Jain_Resume (1).d501027fc06b5c70cae9.pdf",
     "static/media/Screenshot (605).png": "/static/media/Screenshot (605).1a28de0eef3e7ab15f7f.png",
@@ -15,11 +15,11 @@
     "static/media/node.webp": "/static/media/node.f36babd224f97dd7fe96.webp",
     "index.html": "/index.html",
     "main.e6f5153b.css.map": "/static/css/main.e6f5153b.css.map",
-    "main.f7c05868.js.map": "/static/js/main.f7c05868.js.map",
+    "main.d2ef1d69.js.map": "/static/js/main.d2ef1d69.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6f5153b.css",
-    "static/js/main.f7c05868.js"
+    "static/js/main.d2ef1d69.js"
   ]
 }
