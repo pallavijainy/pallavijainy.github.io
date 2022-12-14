@@ -1,0 +1,62 @@
+.stats {
+  width: 90%;
+  display: flex;
+  gap: 20px;
+  margin: auto;
+  justify-content: center;
+}
+.stats > div > img {
+  width: 100%;
+}
+.calender {
+  width: 80%;
+  margin: auto;
+}
+.head {
+  font-family: var(--primaryFont);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-align: center;
+  color: #00ade7;
+  /* font-size: 2.5rem; */
+}
+.title {
+  font-size: 30px;
+  color: #fc1056;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1000px) {
+  .head {
+    color: #00ade7;
+    font-size: 40.8px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 750px) {
+  .head {
+    color: #00ade7;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .stats {
+    width: 90%;
+    margin: auto;
+    display: inline-block;
+  }
+}

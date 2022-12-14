@@ -1,0 +1,185 @@
+.main {
+  /* height: 85px; */
+  /* background-color: #fffdfc; */
+  display: flex;
+  position: sticky;
+  width: 100%;
+  z-index: 999;
+  top: 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+:root {
+  --yellow: #ffc501;
+  --pink: #bc0e4c;
+  --dark: #354f60;
+  --light: #fffdfc;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name > p {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  /* color: rgb(53, 53, 53); */
+  /* color: var(--dark); */
+}
+.name > p::first-letter {
+  font-size: 1.8rem;
+}
+.name > p > span {
+  display: inline-block;
+}
+.name > p > span::first-letter {
+  font-size: 1.8rem;
+}
+.name > p:hover {
+  color: #00ade7;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in-out;
+}
+.name > img {
+  width: 70px;
+  cursor: pointer;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.links_container {
+  display: flex;
+  gap: 3px;
+}
+.button > button {
+  padding: 10px 15px;
+  border: none;
+  /* background-color: #fffdfc; */
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  /* color: rgb(53, 53, 53); */
+  cursor: pointer;
+}
+.button > button:hover {
+  color: var(--yellow);
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in-out;
+  /* background-color: aqua; */
+  /* text-underline-offset: 7px; */
+}
+.button > button::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1.8px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+}
+.button > button:hover::before {
+  transform: scaleX(0.8);
+}
+.icon {
+  background-color: rgb(255, 255, 0);
+  /* background-color: var(--yellow); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.icon:hover {
+  box-shadow: rgba(0, 174, 255, 0.36) 0px 3px 6px,
+    rgba(0, 174, 255, 0.43) 0px 3px 6px;
+}
+.mobile_bars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.open_bars {
+  font-size: 28px;
+}
+.mobile_menu_bars {
+  display: none;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1070px) {
+  .mobile_menu_bars {
+    display: flex;
+  }
+  .links_container {
+    display: none;
+  }
+  .main {
+    position: sticky;
+    z-index: 999;
+  }
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
+  .open_bars {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .name > p {
+    font-size: 16px;
+  }
+  .name > p::first-letter {
+    font-size: 22px;
+  }
+  .name > p > span::first-letter {
+    font-size: 22px;
+  }
+  .name > img {
+    width: 50px;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .name > p {
+    font-size: 14px;
+  }
+  .name > p::first-letter {
+    font-size: 20px;
+  }
+  .name > p > span::first-letter {
+    font-size: 20px;
+  }
+  .name > img {
+    width: 40px;
+  }
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+  .open_bars {
+    font-size: 18px;
+  }
+}
+.closeit {
+  font-size: 26px;
+}

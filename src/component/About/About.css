@@ -1,0 +1,232 @@
+.about {
+  /* background-image: url(../images/blue.png); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding-bottom: 50px;
+}
+.about-container {
+  padding-top: 100px;
+  width: 70%;
+  display: flex;
+  margin: auto;
+}
+.left {
+  text-align: left;
+  width: 100%;
+  padding-top: 100px;
+}
+.about-img > img {
+  width: 80%;
+  margin-top: -20px;
+  box-shadow: rgba(0, 183, 255, 0.9) 0px 15px 35px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 50%;
+}
+.about-img > img:hover {
+  box-shadow: rgba(0, 183, 255, 0.9) 0px 15px 35px;
+  transition: all 0.2s ease-in-out;
+}
+:root {
+  --yellow: #ffc501;
+  --pink: #bc0e4c;
+  --dark: #354f60;
+  --light: #fffdfc;
+}
+
+.hello {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 5px;
+  color: var(--dark);
+}
+.intro {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+.intro,
+.type {
+  font-size: 24px;
+  font-weight: 600;
+  /* line-height: 40px; */
+  color: var(--dark);
+}
+#name {
+  color: var(--pink);
+}
+.links {
+  display: flex;
+  font-size: 40px;
+  gap: 15px;
+  margin-top: 25px;
+}
+.links > div {
+  text-align: center;
+  width: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.links > div > a {
+  color: white;
+}
+.github {
+  color: white;
+  background-color: black;
+}
+.github:hover {
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+  transition: all 0.2s ease-in-out;
+}
+.linkedin {
+  background-color: rgb(14, 118, 168);
+  color: white;
+}
+.linkedin:hover {
+  box-shadow: rgba(14, 118, 168, 0.8) 0px 5px 15px;
+  transition: all 0.2s ease-in-out;
+}
+.envelope {
+  color: white;
+  background-color: rgb(255, 69, 0);
+}
+.envelope:hover {
+  box-shadow: rgba(255, 69, 0, 0.8) 0px 5px 15px;
+  transition: all 0.2s ease-in-out;
+}
+#button {
+  margin-top: 40px;
+}
+#button > a > button {
+  width: 198px;
+  height: 50px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: rgb(252, 16, 86);
+  color: white;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+#button > a > button:hover {
+  box-shadow: rgba(252, 16, 86, 0.8) 0px 5px 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1070px) {
+  .hello {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 5px;
+    color: rgb(43, 43, 43);
+  }
+  .about-container {
+    width: 70%;
+  }
+  .intro,
+  .type {
+    font-size: 20px;
+  }
+  .about-img > img {
+    width: 80%;
+    margin-top: -20px;
+  }
+  .left {
+    width: 200%;
+    padding-top: "200px";
+  }
+  .links > div {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 28px;
+  }
+  #button > a > button {
+    width: 160px;
+    height: 40px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 750px) {
+  .hello {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 5px;
+    color: rgb(43, 43, 43);
+    text-align: center;
+  }
+  .about-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 0px;
+  }
+  .intro,
+  .type {
+    font-size: 18px;
+    text-align: center;
+  }
+  .intro {
+    margin-left: 32%;
+  }
+  .about-img > img {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .links > div {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 28px;
+  }
+  #button > a > button {
+    width: 125px;
+    height: 40px;
+    margin-left: 36%;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .hello {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 5px;
+    color: rgb(43, 43, 43);
+  }
+  .about-container {
+    padding-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* width: 85%; */
+  }
+  .intro {
+    margin-left: 32%;
+  }
+  .intro,
+  .type {
+    font-size: 14px;
+    text-align: center;
+  }
+  .about-img {
+    text-align: center;
+  }
+  .about-img > img {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 8%;
+  }
+  .left {
+    text-align: center;
+  }
+  .links > div {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    font-size: 22px;
+  }
+  #button > a > button {
+    width: 95px;
+    height: 35px;
+  }
+}
