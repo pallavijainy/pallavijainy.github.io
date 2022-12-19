@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5e6e1029.css",
-    "main.js": "/static/js/main.0e3f0b72.js",
+    "main.js": "/static/js/main.f189da8d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/gearbest.png": "/static/media/gearbest.f28bcac1dd56745caf2b.png",
     "static/media/Pallavi_Jain_Resume (1).pdf": "/static/media/Pallavi_Jain_Resume (1).d501027fc06b5c70cae9.pdf",
@@ -15,11 +15,11 @@
     "static/media/node.webp": "/static/media/node.f36babd224f97dd7fe96.webp",
     "index.html": "/index.html",
     "main.5e6e1029.css.map": "/static/css/main.5e6e1029.css.map",
-    "main.0e3f0b72.js.map": "/static/js/main.0e3f0b72.js.map",
+    "main.f189da8d.js.map": "/static/js/main.f189da8d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e6e1029.css",
-    "static/js/main.0e3f0b72.js"
+    "static/js/main.f189da8d.js"
   ]
 }
