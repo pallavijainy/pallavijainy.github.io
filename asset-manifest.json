@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6f5153b.css",
-    "main.js": "/static/js/main.d2ef1d69.js",
+    "main.css": "/static/css/main.5e6e1029.css",
+    "main.js": "/static/js/main.0e3f0b72.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/gearbest.png": "/static/media/gearbest.f28bcac1dd56745caf2b.png",
     "static/media/Pallavi_Jain_Resume (1).pdf": "/static/media/Pallavi_Jain_Resume (1).d501027fc06b5c70cae9.pdf",
-    "static/media/Screenshot (605).png": "/static/media/Screenshot (605).1a28de0eef3e7ab15f7f.png",
-    "static/media/Screenshot (602).png": "/static/media/Screenshot (602).1e3098a58b1eb8b8c4b3.png",
-    "static/media/Screenshot (597).png": "/static/media/Screenshot (597).a4f6dd1c907d2ab23f95.png",
+    "static/media/envoy.png": "/static/media/envoy.cc135614b007b543058b.png",
+    "static/media/postadda.png": "/static/media/postadda.4b9abd0967e4ea0cf368.png",
+    "static/media/gearbest login.png": "/static/media/gearbest login.1e262c13af40250822b7.png",
+    "static/media/postadda login.png": "/static/media/postadda login.bbc9a243836d088410f3.png",
+    "static/media/envoy login.png": "/static/media/envoy login.2ce15887b52f31714ad3.png",
     "static/media/image.jpg": "/static/media/image.de7d44aa6d186fdba7ba.jpg",
-    "static/media/Screenshot (596).png": "/static/media/Screenshot (596).3809aada95ec729076ba.png",
-    "static/media/Screenshot (604).png": "/static/media/Screenshot (604).370c198e0cb73379b279.png",
-    "static/media/Screenshot (606).png": "/static/media/Screenshot (606).25c91ddd7825c2a49e2f.png",
     "static/media/REACT.png": "/static/media/REACT.e4948649a6fa25fde537.png",
     "static/media/node.webp": "/static/media/node.f36babd224f97dd7fe96.webp",
     "index.html": "/index.html",
-    "main.e6f5153b.css.map": "/static/css/main.e6f5153b.css.map",
-    "main.d2ef1d69.js.map": "/static/js/main.d2ef1d69.js.map",
+    "main.5e6e1029.css.map": "/static/css/main.5e6e1029.css.map",
+    "main.0e3f0b72.js.map": "/static/js/main.0e3f0b72.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6f5153b.css",
-    "static/js/main.d2ef1d69.js"
+    "static/css/main.5e6e1029.css",
+    "static/js/main.0e3f0b72.js"
   ]
 }
