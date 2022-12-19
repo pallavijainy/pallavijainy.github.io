@@ -7,6 +7,8 @@
   z-index: 999;
   top: 0px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #1a202c;
+  color: white;
 }
 :root {
   --yellow: #ffc501;

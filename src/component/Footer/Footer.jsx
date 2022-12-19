@@ -8,7 +8,7 @@ import { Box, Heading, Link, Text } from '@chakra-ui/react';
 
 const Footer = () => {
   return (
-    <div style={{height:"200px" ,backgroundColor:"#696969"}} > 
+    <div style={{height:"200px" ,marginTop:"40px"}} id="footer" > 
         <hr /> 
         <Heading style={{textDecoration:"underline",paddingTop:'20px'}}>CONTACT ME</Heading>
         <div style={{paddingTop:'20px'}}>
@@ -25,7 +25,7 @@ const Footer = () => {
                 <Text> E-Mail: <Link href='mailto:pallavijainy0612@gmail.com'>pallavijainy0612@gmail.com</Link></Text>
             </div>
         </div>
-        <Box style={{backgroundColor:"gray"}}>
+        <Box >
         <Heading fontSize={"20px"}> 2022 © Pallavi Jain </Heading>
         </Box>
     </div>

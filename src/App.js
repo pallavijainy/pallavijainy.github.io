@@ -11,8 +11,11 @@ import Works from './component/Skill/Works';
 import Footer from './component/Footer/Footer';
 import { useContext } from "react";
 import { themeContext } from "../src/component/Context"
-import Github_stats from './component/Github/Github_stats';
+
 import Projects from "./component/Project/project.jsx"
+
+import GithubStats from './component/Github/Github_stats';
+
 
 
 function App() {
@@ -39,10 +42,11 @@ function App() {
       <About/>
       <Aboutme/>
       <Works/>
+     
      <Projects/>
-      <Github_stats/>
+      <GithubStats/>
     <Footer/>
-    
+   
     </div>
   );
 }

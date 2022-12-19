@@ -2,7 +2,7 @@ import { Button, useColorMode } from "@chakra-ui/react";
 import React from "react";
 import {
   Link,
-  animateScroll as scroll,
+  
 } from "react-scroll";
 
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
@@ -18,7 +18,12 @@ function WebNavbar({func,sidebar}) {
       <div className="name">
     
         <p>
-          PALLAVI <span>JAIN</span>
+        <Link   activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}>PALLAVI <span>JAIN</span></Link>  
         </p>
       </div>
       <div className="details">
@@ -37,7 +42,7 @@ function WebNavbar({func,sidebar}) {
           <Link
             className="button"
             activeClass="active"
-            to="about"
+            to="aboutme"
             spy={true}
             smooth={true}
             offset={20}
@@ -48,7 +53,7 @@ function WebNavbar({func,sidebar}) {
           <Link
             className="button"
             activeClass="active"
-            to="skills"
+            to="works"
             spy={true}
             smooth={true}
             offset={-50}
@@ -59,7 +64,7 @@ function WebNavbar({func,sidebar}) {
           <Link
             className="button"
             activeClass="active"
-            to="projects"
+            to="project"
             spy={true}
             smooth={true}
             offset={-80}
@@ -81,7 +86,7 @@ function WebNavbar({func,sidebar}) {
           <Link
             className="button"
             activeClass="active"
-            to="Contact"
+            to="footer"
             spy={true}
             smooth={true}
             offset={50}

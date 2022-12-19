@@ -1,8 +1,7 @@
 import React from "react";
 import "./Sidebar.css";
 import {
-  Link,
-  animateScroll as scroll,
+  Link
 } from "react-scroll";
 function Sidebar({ sidebar, close }) {
   return (
@@ -20,7 +19,7 @@ function Sidebar({ sidebar, close }) {
       </Link>
       <Link
         activeClass="active"
-        to="about"
+        to="aboutme"
         spy={true}
         smooth={true}
         offset={0}
@@ -31,7 +30,7 @@ function Sidebar({ sidebar, close }) {
       </Link>
       <Link
         activeClass="active"
-        to="skills"
+        to="works"
         spy={true}
         smooth={true}
         offset={-80}
@@ -64,7 +63,7 @@ function Sidebar({ sidebar, close }) {
       </Link>
       <Link
         activeClass="active"
-        to="Contact"
+        to="footer"
         spy={true}
         smooth={true}
         offset={50}

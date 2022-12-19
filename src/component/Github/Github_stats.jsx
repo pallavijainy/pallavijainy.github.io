@@ -2,7 +2,7 @@ import React from "react";
 import "./Github_stats.css";
 import GitHubCalendar from "react-github-calendar";
 
-export default function Github_stats() {
+export default function GithubStats() {
   return (
     <div>
       <p id="github" className="head">
@@ -13,13 +13,13 @@ export default function Github_stats() {
         <div className="stats">
           <div>
             <img
-              src="https://github-readme-stats.vercel.app/api?username=pallavijainy&show_icons=true&locale=en"
+              src="https://github-readme-stats.vercel.app/api?username=pallavijainy&theme=algolia"
               alt="pallavijain"
             />
           </div>
           <div>
             <img
-              src="https://github-readme-streak-stats.herokuapp.com/?user=pallavijainy"
+              src="https://github-readme-streak-stats.herokuapp.com/?user=pallavijainy&theme=algolia"
               alt="pallavijain"
             />
           </div>

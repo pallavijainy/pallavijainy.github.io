@@ -1,21 +1,12 @@
 import React from "react";
 import "./Project.css";
-// import sephora from "../images/projects/zee5/2_macbookgold_front.png";
-// import zee1 from "../images/projects/zee5/5_iphone13promaxgold_portrait.png";
-// import zee5 from "../images/projects/zee5/1_macbookgold_front.png";
-// import zee2 from "../images/projects/zee5/4_ipad_gold_landscape.png";
-// import sep1 from "../images/projects/sephora/1_macbookpro15_front.png";
-// import sep2 from "../images/projects/sephora/6_iphone13red_portrait.png";
-// import you1 from "../images/projects/sephora/youtube.png";
-// import you2 from "../images/projects/sephora/1_iphone12minired_portrait.png";
-// import wea1 from "../images/projects/sephora/weatherapp.png";
-// import wea2 from "../images/projects/sephora/2_iphone12minired_portrait.png";
-import buffer from "../Image/Screenshot (596).png";
-import bufferlogin from "../Image/Screenshot (602).png";
-import envoy from "../Image/Screenshot (597).png";
-import envoylogin from "../Image/Screenshot (606).png";
-import gearbest from "../Image/Screenshot (605).png";
-import gearlogin from "../Image/Screenshot (604).png";
+
+import buffer from "../Image/postadda.png";
+import bufferlogin from "../Image/postadda login.png";
+import envoy from "../Image/envoy.png"
+import envoylogin from "../Image/envoy login.png";
+import gearbest from "../Image/gearbest.png";
+import gearlogin from "../Image/gearbest login.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faReact,
@@ -108,15 +99,15 @@ export default function Projects() {
           <div className="project">
             <div id="project-cards-image">
               <div>
-                <img src={el.pro_img} alt="akash" />
+                <img src={el.pro_img} alt="pallavi" />
               </div>
               <div>
-                <img src={el.phone_img} alt="akash" />
+                <img src={el.phone_img} alt="pallavi" />
               </div>
             </div>
             <div>
               {el.languages.length <= 3 ? (
-                <div className="tech-stack">
+                <div className="tech-stack" >
                   <FontAwesomeIcon
                     className="aaa"
                     icon={el.languages[0].name}

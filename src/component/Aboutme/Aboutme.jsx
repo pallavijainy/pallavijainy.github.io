@@ -3,13 +3,16 @@ import React from "react";
 
 const Aboutme = () => {
   return (
-    <SimpleGrid
+    <div >
+        <Heading textDecoration={"underline"} id="aboutme" >About Me</Heading>
+        <SimpleGrid
     columns={[1,1,2]}
       margin={"auto"}
    
     >
-      <Box margin={"auto"}>
-        <iframe
+   
+      <Box margin={"auto"}  marginTop={10}>
+        <iframe 
           title="background-3d"
           src="https://my.spline.design/awesomefolio-0c39efc3de701ba97be395cc128e4e2f/"
           frameBorder="0"
@@ -17,11 +20,11 @@ const Aboutme = () => {
          
         ></iframe>
       </Box>
-      <Box >
-        <Heading textDecoration={"underline"}>About Me</Heading>
+      <Box marginTop={10}>
+       
 
-        <Stack spacing={5} marginTop={3}>
-          <Text >
+        <Stack spacing={10} marginTop={10} mr={10}>
+          <Text  fontSize={20} textAlign="left">
             I got introduced to coding pretty late comparatively. It was always
             something I wanted to learn but having graduated with a Bachelor's
             degree in Business Administration it made sense to just continue on
@@ -29,7 +32,7 @@ const Aboutme = () => {
             back.But when COVID hit, and the world came to a stop, I finally got
             the chance I wanted.
           </Text>
-          <Text >
+          <Text fontSize={20} textAlign="left">
             I joined the coding bootcamp for Full Stack Web Development at Masai
             School and started learning. I learned all the basics and then
             started making my own websites. I worked on different collaborative
@@ -40,6 +43,8 @@ const Aboutme = () => {
         </Stack>
       </Box>
     </SimpleGrid>
+    </div>
+    
   );
 };
 
