@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.431d2b98.css",
-    "main.js": "/static/js/main.f189da8d.js",
+    "main.css": "/static/css/main.e2813730.css",
+    "main.js": "/static/js/main.06a5317b.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/gearbest.png": "/static/media/gearbest.f28bcac1dd56745caf2b.png",
     "static/media/Pallavi_Jain_Resume (1).pdf": "/static/media/Pallavi_Jain_Resume (1).d501027fc06b5c70cae9.pdf",
@@ -14,12 +14,12 @@
     "static/media/REACT.png": "/static/media/REACT.e4948649a6fa25fde537.png",
     "static/media/node.webp": "/static/media/node.f36babd224f97dd7fe96.webp",
     "index.html": "/index.html",
-    "main.431d2b98.css.map": "/static/css/main.431d2b98.css.map",
-    "main.f189da8d.js.map": "/static/js/main.f189da8d.js.map",
+    "main.e2813730.css.map": "/static/css/main.e2813730.css.map",
+    "main.06a5317b.js.map": "/static/js/main.06a5317b.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.431d2b98.css",
-    "static/js/main.f189da8d.js"
+    "static/css/main.e2813730.css",
+    "static/js/main.06a5317b.js"
   ]
 }
