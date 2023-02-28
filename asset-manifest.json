@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.9d70dcf9.css",
-    "main.js": "/static/js/main.a106f664.js",
+    "main.js": "/static/js/main.fae4455e.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/gearbest.png": "/static/media/gearbest.f28bcac1dd56745caf2b.png",
-    "static/media/Pallavi_Jain_Resume (1).pdf": "/static/media/Pallavi_Jain_Resume (1).d501027fc06b5c70cae9.pdf",
     "static/media/envoy.png": "/static/media/envoy.cc135614b007b543058b.png",
     "static/media/postadda.png": "/static/media/postadda.4b9abd0967e4ea0cf368.png",
     "static/media/gearbest login.png": "/static/media/gearbest login.1e262c13af40250822b7.png",
@@ -15,11 +14,11 @@
     "static/media/node.webp": "/static/media/node.f36babd224f97dd7fe96.webp",
     "index.html": "/index.html",
     "main.9d70dcf9.css.map": "/static/css/main.9d70dcf9.css.map",
-    "main.a106f664.js.map": "/static/js/main.a106f664.js.map",
+    "main.fae4455e.js.map": "/static/js/main.fae4455e.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d70dcf9.css",
-    "static/js/main.a106f664.js"
+    "static/js/main.fae4455e.js"
   ]
 }
