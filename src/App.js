@@ -15,6 +15,7 @@ import { themeContext } from "../src/component/Context"
 import Projects from "./component/Project/project.jsx"
 
 import GithubStats from './component/Github/Github_stats';
+import { Stack } from '@chakra-ui/react';
 
 
 

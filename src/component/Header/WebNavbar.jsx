@@ -92,7 +92,7 @@ function WebNavbar({func,sidebar}) {
             offset={50}
             duration={500}
           >
-            <button>CONTACT & RESUME</button>
+            <button>CONTACT</button>
           </Link>
         </div>
         <div >

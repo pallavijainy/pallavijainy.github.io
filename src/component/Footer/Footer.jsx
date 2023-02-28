@@ -12,17 +12,17 @@ const Footer = () => {
         <hr /> 
         <Heading style={{textDecoration:"underline",paddingTop:'20px'}}>CONTACT ME</Heading>
         <div style={{paddingTop:'20px'}}>
-       <Link href='https://github.com/pallavijainy'><GitHubIcon fontSize='large' /></Link>     
-          <Link href='https://www.linkedin.com/in/pallavi-jain-64442a23a/'><LinkedInIcon fontSize='large'/></Link>  
-           <Link href='https://www.instagram.com/_pallavi_baraiya_06/'> <InstagramIcon fontSize='large'/></Link>
-           <Link href='mailto:pallavijainy0612@gmail.com'><EmailIcon fontSize='large'/></Link> 
-         <Link href='tel: 9755415107'> <ContactPageIcon fontSize='large'/></Link>  
+       <Link href='https://github.com/pallavijainy' target="_blank" rel="noopener noreferrer"><GitHubIcon fontSize='large' /></Link>     
+          <Link href='https://www.linkedin.com/in/pallavi-jain-64442a23a/' target="_blank" rel="noopener noreferrer"><LinkedInIcon fontSize='large'/></Link>  
+           <Link href='https://www.instagram.com/_pallavi_baraiya_06/' target="_blank" rel="noopener noreferrer"> <InstagramIcon fontSize='large'/></Link>
+           <Link href='mailto:pallavijainy0612@gmail.com' target="_blank" rel="noopener noreferrer"><EmailIcon fontSize='large'/></Link> 
+         <Link href='tel: 9755415107' target="_blank" rel="noopener noreferrer"> <ContactPageIcon fontSize='large'/></Link>  
          
             
             <div>
-                <Text> <Link href='tel: 9755415107'>+91 9755415107</Link> </Text>
+                <Text> <Link href='tel: 9755415107' target="_blank" rel="noopener noreferrer">+91 9755415107</Link> </Text>
                 
-                <Text> E-Mail: <Link href='mailto:pallavijainy0612@gmail.com'>pallavijainy0612@gmail.com</Link></Text>
+                <Text> E-Mail: <Link href='mailto:pallavijainy0612@gmail.com' target="_blank" rel="noopener noreferrer">pallavijainy0612@gmail.com</Link></Text>
             </div>
         </div>
         <Box >

@@ -4,13 +4,13 @@ import GitHubCalendar from "react-github-calendar";
 
 export default function GithubStats() {
   return (
-    <div>
-      <p id="github" className="head">
+    <div style={{marginTop:"30px"}}>
+      <p id="github" className="head" >
         Github
       </p>
-      <div>
+      <div style={{marginTop:"30px"}}>
         <p className="title">My GitHub stats</p>
-        <div className="stats">
+        <div className="stats" style={{marginTop:"30px"}}>
           <div>
             <img
               src="https://github-readme-stats.vercel.app/api?username=pallavijainy&theme=algolia"
@@ -25,9 +25,9 @@ export default function GithubStats() {
           </div>
         </div>
       </div>
-      <div>
+      <div style={{marginTop:"40px"}}>
         <p className="title">My Github Calender</p>
-        <div className="calender">
+        <div className="calender" style={{marginTop:"30px"}}>
           <GitHubCalendar
             username="pallavijainy"
             year="last"

@@ -23,8 +23,8 @@ const Aboutme = () => {
       <Box marginTop={10}>
        
 
-        <Stack spacing={10} marginTop={10} mr={10}>
-          <Text  fontSize={20} textAlign="left">
+        <Stack spacing={10} marginTop={5} mr={10}marginBottom={5}>
+          <Text  fontSize={20} textAlign={{base:"center",sm:"center",md:"left"}}>
             I got introduced to coding pretty late comparatively. It was always
             something I wanted to learn but having graduated with a Bachelor's
             degree in Business Administration it made sense to just continue on
@@ -32,7 +32,7 @@ const Aboutme = () => {
             back.But when COVID hit, and the world came to a stop, I finally got
             the chance I wanted.
           </Text>
-          <Text fontSize={20} textAlign="left">
+          <Text fontSize={20} textAlign={{base:"center",sm:"center",md:"left"}}>
             I joined the coding bootcamp for Full Stack Web Development at Masai
             School and started learning. I learned all the basics and then
             started making my own websites. I worked on different collaborative

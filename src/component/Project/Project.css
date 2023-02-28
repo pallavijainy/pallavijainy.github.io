@@ -1,6 +1,6 @@
-.projects-container {
+/* .projects-container {
   margin-top: -100px;
-}
+} */
 
 .projects-container > p {
   color: #00ade7;
@@ -27,7 +27,7 @@
   transition: 300ms ease-in-out;
 }
 #project-cards-image > div > img:hover {
-  transform: scale(1.1);
+  transform: scale(2.1);
   transition: 300ms ease-in-out;
 }
 #project-cards-image > div:nth-child(1) > img {
@@ -108,9 +108,9 @@
   cursor: pointer;
 }
 @media screen and (min-width: 750px) and (max-width: 1000px) {
-  .projects-container {
+  /* .projects-container {
     margin-top: -50px;
-  }
+  } */
   .projects-container > p {
     color: #00ade7;
     font-size: 40.8px;
@@ -120,9 +120,9 @@
 }
 
 @media screen and (min-width: 200px) and (max-width: 750px) {
-  .projects-container {
+  /* .projects-container {
     margin-top: -50px;
-  }
+  } */
   .projects-container > p {
     color: #00ade7;
     font-size: 30px;

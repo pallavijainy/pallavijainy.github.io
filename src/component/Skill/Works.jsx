@@ -28,7 +28,7 @@ const Works = () => {
      <div className="works" id="works" style={{width:"80%",margin:"auto"}}> 
       {/* left side */}
       <div className="w-left">
-        <div className="awesome">
+        <div className="awesome" style={{marginTop:"20px"}}>
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
           Frontend Development
@@ -58,7 +58,7 @@ const Works = () => {
           transition={{ duration: 3.5, type: "spring" }}
           className="w-mainCircle"
         >
-          <div className="w-secCircle">
+          <div className="w-secCircle" >
             <img src={html1} alt="" style={{borderRadius:"50%"}} />
           </div>
           <div className="w-secCircle">
