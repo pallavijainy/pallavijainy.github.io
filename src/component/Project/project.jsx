@@ -73,7 +73,7 @@ const projects = {
       deploy_url: "https://gorgeous-entremet-2b94c9.netlify.app/",
       web_url: "booking.png",
       description:
-        "Clone of Gearbest website which will always provide high quality products and services",
+        "Clone of Gearbest website which provides high quality products and services",
       languages: [
         {
           name: faHtml5,
@@ -95,7 +95,7 @@ const projects = {
       deploy_url: "https://shoe-land-hub.vercel.app/",
       web_url: "booking.png",
       description:
-        "Clone of Famous Footwear website a diverse portfolio of global footwear brands dedicated to helping every person find the perfect pair of shoes",
+        "Clone of Famous Footwear website a diverse portfolio of global footwear brands dedicated to helping every person find the perfect pair of shoes.",
       languages: [
         {
           name: faReact,

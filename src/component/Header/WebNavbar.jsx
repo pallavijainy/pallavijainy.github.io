@@ -1,32 +1,36 @@
 import { Button, useColorMode } from "@chakra-ui/react";
 import React from "react";
-import {
-  Link,
-  
-} from "react-scroll";
+import { Link } from "react-scroll";
 
-import { MoonIcon, SunIcon } from '@chakra-ui/icons';
-import download from "../Download/Pallavi_Jain_Resume (1).pdf"
+import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 
 import "./Header.css";
 import MobileNavbar from "./MobileNavbar";
 
-function WebNavbar({func,sidebar}) {
+function WebNavbar({ func, sidebar }) {
   const { colorMode, toggleColorMode } = useColorMode();
-  function handleClick(){
-    window.open("https://drive.google.com/file/d/1YAp-ywxagyg4lRCHMDKg6z4jAPTq8CEP/view?usp=sharing",'_blank');
-}
+
+  const handleClick=()=> {
+    window.open(
+      "https://drive.google.com/uc?export=download&id=1YAp-ywxagyg4lRCHMDKg6z4jAPTq8CEP",
+      "_blank"
+    );
+  }
+
   return (
     <div className="container">
       <div className="name">
-    
         <p>
-        <Link   activeClass="active"
+          <Link
+            activeClass="active"
             to="home"
             spy={true}
             smooth={true}
             offset={-100}
-            duration={500}>PALLAVI <span>JAIN</span></Link>  
+            duration={500}
+          >
+            PALLAVI <span>JAIN</span>
+          </Link>
         </p>
       </div>
       <div className="details">
@@ -96,19 +100,22 @@ function WebNavbar({func,sidebar}) {
             duration={500}
           >
             <button>CONTACT</button>
-        
-      
-               <button onClick={handleClick}> <a href={download} download="fw20_0577-Pallavi-Jain-Resume">RESUME</a></button>
-            
-         
           </Link>
+         
         </div>
-        <div >
-        <Button onClick={toggleColorMode}>
-                {colorMode === 'light' ?   <SunIcon color={"black"}/>: <MoonIcon />}
-              </Button>
+
+        <button onClick={handleClick} >RESUME</button>
+
+        <div>
+          <Button onClick={toggleColorMode}>
+            {colorMode === "light" ? <SunIcon color={"black"} /> : <MoonIcon />}
+          </Button>
         </div>
-        <div className="mobile_menu_bars" style={{marginLeft:"15px"}} onClick={func}>
+        <div
+          className="mobile_menu_bars"
+          style={{ marginLeft: "15px" }}
+          onClick={func}
+        >
           <MobileNavbar sidebar={sidebar}></MobileNavbar>
         </div>
       </div>

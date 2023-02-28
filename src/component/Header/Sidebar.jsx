@@ -1,9 +1,15 @@
 import React from "react";
 import "./Sidebar.css";
-import {
-  Link
-} from "react-scroll";
+import { Link } from "react-scroll";
+// import download from "../Download/Pallavi_Jain_Resume (1).pdf"
 function Sidebar({ sidebar, close }) {
+  function handleClick() {
+    window.open(
+      "https://drive.google.com/uc?export=download&id=1YAp-ywxagyg4lRCHMDKg6z4jAPTq8CEP",
+      "_blank"
+    );
+  }
+
   return (
     <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
       <Link
@@ -72,6 +78,17 @@ function Sidebar({ sidebar, close }) {
       >
         <li>Contact</li>
       </Link>
+
+      <li onClick={handleClick}>
+        <a
+          href="https://drive.google.com/uc?export=download&id=1YAp-ywxagyg4lRCHMDKg6z4jAPTq8CEP"
+          download="fw20_0577-Pallavi-Jain-Resume"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          RESUME
+        </a>
+      </li>
     </div>
   );
 }
