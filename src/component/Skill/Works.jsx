@@ -31,7 +31,7 @@ const Works = () => {
         <div className="awesome" style={{marginTop:"20px"}}>
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-          Frontend Development
+          Front-End Developer
           </span>
           <span>Skills</span>
           <span>
@@ -95,7 +95,7 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-          Backend Development
+          Back-End Developer 
           </span>
           <span>Skills</span>
           <span>

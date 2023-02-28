@@ -3,7 +3,7 @@ import "./Project.css";
 
 import buffer from "../Image/postadda.png";
 import bufferlogin from "../Image/postadda login.png";
-import envoy from "../Image/envoy.png"
+import envoy from "../Image/envoy.png";
 import envoylogin from "../Image/envoy login.png";
 import gearbest from "../Image/gearbest.png";
 import gearlogin from "../Image/gearbest login.png";
@@ -73,7 +73,7 @@ const projects = {
       deploy_url: "https://gorgeous-entremet-2b94c9.netlify.app/",
       web_url: "booking.png",
       description:
-        "clone of Gearbest website which will always provide high quality products and services",
+        "Clone of Gearbest website which will always provide high quality products and services",
       languages: [
         {
           name: faHtml5,
@@ -85,8 +85,32 @@ const projects = {
           name: faJs,
         },
       ],
-    }
-   
+    },
+    {
+      id: "3",
+      name: "Famous Footwear website",
+      pro_img: buffer,
+      phone_img: bufferlogin,
+      url: "https://github.com/pallavijainy/scenic-wood-5639",
+      deploy_url: "https://shoe-land-hub.vercel.app/",
+      web_url: "booking.png",
+      description:
+        "Clone of Famous Footwear website a diverse portfolio of global footwear brands dedicated to helping every person find the perfect pair of shoes",
+      languages: [
+        {
+          name: faReact,
+        },
+        {
+          name: faHtml5,
+        },
+        {
+          name: faCss3,
+        },
+        {
+          name: faJs,
+        },
+      ],
+    },
   ],
 };
 
@@ -106,8 +130,9 @@ export default function Projects() {
               </div>
             </div>
             <div>
+              <p className="super-name">{el.name}</p>
               {el.languages.length <= 3 ? (
-                <div className="tech-stack" >
+                <div className="tech-stack">
                   <FontAwesomeIcon
                     className="aaa"
                     icon={el.languages[0].name}
@@ -122,7 +147,7 @@ export default function Projects() {
                   ></FontAwesomeIcon>
                 </div>
               ) : (
-                <div className="tech-stack">
+                <div className="tech-stack" marginTop="20px">
                   <FontAwesomeIcon
                     className="aaaa"
                     icon={el.languages[0].name}
@@ -141,9 +166,10 @@ export default function Projects() {
                   ></FontAwesomeIcon>
                 </div>
               )}
-              <p className="super-name">{el.name}</p>
-              <p className="super-des" style={{color:"black"}}>{el.description}</p>
-              <div className="func-buttons">
+              <p className="super-des" style={{ color: "black" ,marginTop:"30px"}}>
+                {el.description}
+              </p>
+              <div className="func-buttons" >
                 <a href={el.url} target="_blank">
                   <button>GitHub</button>
                 </a>
@@ -158,6 +184,3 @@ export default function Projects() {
     </div>
   );
 }
-
-
-

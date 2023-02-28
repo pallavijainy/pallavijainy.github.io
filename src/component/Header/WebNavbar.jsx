@@ -6,13 +6,16 @@ import {
 } from "react-scroll";
 
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
-
+import download from "../Download/Pallavi_Jain_Resume (1).pdf"
 
 import "./Header.css";
 import MobileNavbar from "./MobileNavbar";
 
 function WebNavbar({func,sidebar}) {
   const { colorMode, toggleColorMode } = useColorMode();
+  function handleClick(){
+    window.open("https://drive.google.com/file/d/1YAp-ywxagyg4lRCHMDKg6z4jAPTq8CEP/view?usp=sharing",'_blank');
+}
   return (
     <div className="container">
       <div className="name">
@@ -93,6 +96,11 @@ function WebNavbar({func,sidebar}) {
             duration={500}
           >
             <button>CONTACT</button>
+        
+      
+               <button onClick={handleClick}> <a href={download} download="fw20_0577-Pallavi-Jain-Resume">RESUME</a></button>
+            
+         
           </Link>
         </div>
         <div >

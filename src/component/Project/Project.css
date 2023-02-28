@@ -68,17 +68,21 @@
 .aaa:nth-child(1),
 .aaaa:nth-child(2) {
   color: #e44f26;
+  margin-top: 20px;
 }
 .aaa:nth-child(2),
 .aaaa:nth-child(3) {
   color: #1572b6;
+  margin-top: 20px;
 }
 .aaa:nth-child(3),
 .aaaa:nth-child(4) {
   color: orange;
+  margin-top: 20px;
 }
 .aaaa:nth-child(1) {
   color: #00d8ff;
+  margin-top: 20px;
 }
 .super-name {
   font-size: 22px;
@@ -90,6 +94,7 @@
   display: flex;
   gap: 20px;
   justify-content: center;
+  margin-top: 20px;
 }
 .func-buttons > a > button {
   background-color: #fc1056;
