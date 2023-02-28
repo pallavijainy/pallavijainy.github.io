@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./Header.css";
 import WebNavbar from "./WebNavbar";
-import MobileNavbar from "./MobileNavbar";
+// import MobileNavbar from "./MobileNavbar";
 
 export default function Header({openSidebar,sidebar}) {
   return (

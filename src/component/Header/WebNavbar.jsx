@@ -10,12 +10,12 @@ import MobileNavbar from "./MobileNavbar";
 function WebNavbar({ func, sidebar }) {
   const { colorMode, toggleColorMode } = useColorMode();
 
-  const handleClick=()=> {
+  const handleClick = () => {
     window.open(
-      "https://drive.google.com/uc?export=download&id=1YAp-ywxagyg4lRCHMDKg6z4jAPTq8CEP",
-      "_blank"
+      "https://drive.google.com/file/d/1D8_iAg_LlQG-qnCfg6QRc2qFKs6tcXey/view?usp=share_link",
+      "_blank" , "noreferrer"
     );
-  }
+  };
 
   return (
     <div className="container">
@@ -101,11 +101,15 @@ function WebNavbar({ func, sidebar }) {
           >
             <button>CONTACT</button>
           </Link>
-         
         </div>
 
-        <button onClick={handleClick} >RESUME</button>
+<div className="button links_container">
+<button onClick={handleClick} >
+        <a href="https://drive.google.com/uc?export=download&id=1YAp-ywxagyg4lRCHMDKg6z4jAPTq8CEP" download="fw20_0577-Pallavi-Jain-Resume">RESUME</a>
+        </button>
 
+</div>
+      
         <div>
           <Button onClick={toggleColorMode}>
             {colorMode === "light" ? <SunIcon color={"black"} /> : <MoonIcon />}

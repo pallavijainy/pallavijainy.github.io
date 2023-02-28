@@ -6,12 +6,18 @@ import AOS from "aos";
 
 import Typewriter from "typewriter-effect";
 export default function About() {
+  const handleClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1D8_iAg_LlQG-qnCfg6QRc2qFKs6tcXey/view?usp=share_link",
+      "_blank" , "noreferrer"
+    );
+  };
   useEffect(() => {
     AOS.init({
       duration: 2000,
     });
   }, []);
-  
+
   return (
     <div id="home" className="about">
       <div className="about-container">
@@ -44,11 +50,9 @@ export default function About() {
           </div>
 
           <div id="button">
-            <a
+            <a onClick={handleClick}
               href="https://drive.google.com/uc?export=download&id=1YAp-ywxagyg4lRCHMDKg6z4jAPTq8CEP"
               download="fw20_0577-Pallavi-Jain-Resume"
-              target="_blank"
-              rel="noopener noreferrer"
             >
               <button>RESUME</button>
             </a>

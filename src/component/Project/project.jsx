@@ -7,6 +7,8 @@ import envoy from "../Image/envoy.png";
 import envoylogin from "../Image/envoy login.png";
 import gearbest from "../Image/gearbest.png";
 import gearlogin from "../Image/gearbest login.png";
+import shoelap from "../Image/shoeLap.png";
+import shoemo from "..//Image/shoeMobile.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faReact,
@@ -44,6 +46,31 @@ const projects = {
     },
     {
       id: "1",
+      name: "Famous Footwear website",
+      pro_img: shoelap,
+      phone_img: shoemo,
+      url: "https://github.com/pallavijainy/scenic-wood-5639",
+      deploy_url: "https://shoe-land-hub.vercel.app/",
+      web_url: "booking.png",
+      description:
+        "Clone of Famous Footwear website a diverse portfolio of global footwear brands dedicated to helping every person find the perfect pair of shoes.",
+      languages: [
+        {
+          name: faReact,
+        },
+        {
+          name: faHtml5,
+        },
+        {
+          name: faCss3,
+        },
+        {
+          name: faJs,
+        },
+      ],
+    },
+    {
+      id: "2",
       name: "Envoy clone",
       pro_img: envoy,
       phone_img: envoylogin,
@@ -65,7 +92,7 @@ const projects = {
       ],
     },
     {
-      id: "2",
+      id: "3",
       name: "Gearbest",
       pro_img: gearbest,
       phone_img: gearlogin,
@@ -86,31 +113,7 @@ const projects = {
         },
       ],
     },
-    {
-      id: "3",
-      name: "Famous Footwear website",
-      pro_img: buffer,
-      phone_img: bufferlogin,
-      url: "https://github.com/pallavijainy/scenic-wood-5639",
-      deploy_url: "https://shoe-land-hub.vercel.app/",
-      web_url: "booking.png",
-      description:
-        "Clone of Famous Footwear website a diverse portfolio of global footwear brands dedicated to helping every person find the perfect pair of shoes.",
-      languages: [
-        {
-          name: faReact,
-        },
-        {
-          name: faHtml5,
-        },
-        {
-          name: faCss3,
-        },
-        {
-          name: faJs,
-        },
-      ],
-    },
+   
   ],
 };
 

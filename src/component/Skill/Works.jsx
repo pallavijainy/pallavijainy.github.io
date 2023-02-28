@@ -7,7 +7,7 @@ import html1 from "../Image/html1.png";
 import ts from "../Image/ts.png";
 import CSS from "../Image/CSS.png";
 import redux from "../Image/redux.png";
-import backend from "../Image/backend.png";
+// import backend from "../Image/backend.png";
 import node from "../Image/node.webp"
 import ex from "../Image/ex.png";
 import npm from "../Image/npm.png";
@@ -15,7 +15,8 @@ import github from "../Image/github.png";
 import mongo from "../Image/mongo.png";
 import {themeContext} from "../Context"
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
+// import {Link} from 'react-scroll'
+import vs from "../Image/vscode.png"
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -129,7 +130,7 @@ const Works = () => {
             <img src={mongo} alt="" style={{borderRadius:"50%",width:"200px"}}/>
           </div>
           <div className="w-secCircle">
-            <img src={backend} alt="" style={{borderRadius:"50%",width:"150px"}}/>
+            <img src={vs} alt="" style={{borderRadius:"50%",width:"150px"}}/>
           </div>{" "}
           <div className="w-secCircle">
             <img src={ex} alt="" style={{borderRadius:"50%",width:"150px"}}/>
