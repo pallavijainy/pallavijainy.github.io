@@ -25,18 +25,18 @@ export default function GithubStats() {
           </div>
         </div>
       </div>
-      <div style={{marginTop:"40px"}}>
-        <p className="title">My Github Calender</p>
-        <div className="calender" style={{marginTop:"30px"}}>
-          <GitHubCalendar
-            username="pallavijainy"
-            year="last"
-            blockMargin={4}
-            blockRadius={20}
-            blockSize={20}
-          />
-        </div>
-      </div>
+      <div class="wrapper">
+  <p class="title">My GitHub Calendar</p>
+  <div class="calendar">
+    <GitHubCalendar
+      username="pallavijainy"
+      year="last"
+      blockMargin={4}
+      blockRadius={20}
+      blockSize={20}
+    />
+  </div>
+</div>
     </div>
   );
 }

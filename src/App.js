@@ -16,6 +16,7 @@ import Projects from "./component/Project/project.jsx"
 
 import GithubStats from './component/Github/Github_stats';
 // import { Stack } from '@chakra-ui/react';
+import PersonalAchievement from './component/Personal Achievement/PersonalAchievement';
 
 
 
@@ -42,6 +43,7 @@ function App() {
       <Sidebar close={toggleSidebar} sidebar={sidebar}/>
       <About/>
       <Aboutme/>
+      <PersonalAchievement/>
       <Works/>
      
      <Projects/>

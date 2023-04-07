@@ -1,5 +1,6 @@
 import { Box, Heading, SimpleGrid, Stack, Text } from "@chakra-ui/react";
 import React from "react";
+import vdo from "./video1905609684-WuuHbgUH-unscreen (1).gif";
 
 const Aboutme = () => {
   return (
@@ -11,14 +12,15 @@ const Aboutme = () => {
    
     >
    
-      <Box margin={"auto"}  marginTop={10}>
-        <iframe 
+      <Box margin={"auto"}  >
+        {/* <iframe 
           title="background-3d"
-          src="https://my.spline.design/awesomefolio-0c39efc3de701ba97be395cc128e4e2f/"
+          src={vdo}
           frameBorder="0"
           height={"400px"}
          
-        ></iframe>
+        ></iframe> */}
+        <img src={vdo} alt=""  height={"400px"}/>
       </Box>
       <Box marginTop={10}>
        

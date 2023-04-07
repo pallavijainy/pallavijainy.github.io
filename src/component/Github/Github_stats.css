@@ -60,3 +60,35 @@
     display: inline-block;
   }
 }
+
+/* ///////////////////////////// */
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.calendar {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .calendar {
+    margin-top: 20px;
+  }
+}

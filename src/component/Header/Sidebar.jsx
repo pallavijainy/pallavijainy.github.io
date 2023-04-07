@@ -80,7 +80,7 @@ function Sidebar({ sidebar, close }) {
       </Link>
 
       <li onClick={handleClick}>
-       <a href="https://drive.google.com/uc?export=download&id=1YAp-ywxagyg4lRCHMDKg6z4jAPTq8CEP" download="fw20_0577-Pallavi-Jain-Resume">RESUME</a>
+       <a href="https://drive.google.com/uc?export=download&id=1D8_iAg_LlQG-qnCfg6QRc2qFKs6tcXey" download="fw20_0577-Pallavi-Jain-Resume">RESUME</a>
       </li>
     </div>
   );

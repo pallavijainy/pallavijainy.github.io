@@ -51,9 +51,10 @@ export default function About() {
 
           <div id="button">
             <a onClick={handleClick}
-              href="https://drive.google.com/uc?export=download&id=1YAp-ywxagyg4lRCHMDKg6z4jAPTq8CEP"
+              href="https://drive.google.com/uc?export=download&id=1D8_iAg_LlQG-qnCfg6QRc2qFKs6tcXey"
               download="fw20_0577-Pallavi-Jain-Resume"
             >
+            
               <button>RESUME</button>
             </a>
           </div>
