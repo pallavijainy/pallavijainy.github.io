@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.904e2d75.css",
-    "main.js": "/static/js/main.81b324af.js",
+    "main.js": "/static/js/main.55096207.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/shoeLap.png": "/static/media/shoeLap.f47ce9d251112f818e8a.png",
     "static/media/gearbest.png": "/static/media/gearbest.f28bcac1dd56745caf2b.png",
@@ -13,6 +13,7 @@
     "static/media/certificateimage.jpg": "/static/media/certificateimage.00733d8d125aca946fe6.jpg",
     "static/media/miniproject.jpg": "/static/media/miniproject.2c2f35d331952ef28034.jpg",
     "static/media/envoy login.png": "/static/media/envoy login.2ce15887b52f31714ad3.png",
+    "static/media/video1905609684-WuuHbgUH-unscreen (1).gif": "/static/media/video1905609684-WuuHbgUH-unscreen (1).4b0111611e9443548d4a.gif",
     "static/media/shoeMobile.png": "/static/media/shoeMobile.7f1699615d1a1ad39070.png",
     "static/media/WhatsApp Image 2023-04-07 at 6.08.36 PM (1).jpeg": "/static/media/WhatsApp Image 2023-04-07 at 6.08.36 PM (1).16c0e40386e0e59e72dd.jpeg",
     "static/media/image.jpg": "/static/media/image.de7d44aa6d186fdba7ba.jpg",
@@ -21,11 +22,11 @@
     "static/media/node.webp": "/static/media/node.f36babd224f97dd7fe96.webp",
     "index.html": "/index.html",
     "main.904e2d75.css.map": "/static/css/main.904e2d75.css.map",
-    "main.81b324af.js.map": "/static/js/main.81b324af.js.map",
+    "main.55096207.js.map": "/static/js/main.55096207.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.904e2d75.css",
-    "static/js/main.81b324af.js"
+    "static/js/main.55096207.js"
   ]
 }
