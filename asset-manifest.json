@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.967d048c.css",
-    "main.js": "/static/js/main.12811d7c.js",
+    "main.css": "/static/css/main.904e2d75.css",
+    "main.js": "/static/js/main.81b324af.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/shoeLap.png": "/static/media/shoeLap.f47ce9d251112f818e8a.png",
     "static/media/gearbest.png": "/static/media/gearbest.f28bcac1dd56745caf2b.png",
@@ -9,19 +9,23 @@
     "static/media/postadda.png": "/static/media/postadda.4b9abd0967e4ea0cf368.png",
     "static/media/gearbest login.png": "/static/media/gearbest login.1e262c13af40250822b7.png",
     "static/media/postadda login.png": "/static/media/postadda login.bbc9a243836d088410f3.png",
+    "static/media/codingimg.jpg": "/static/media/codingimg.d6756d8f85a8a959f650.jpg",
+    "static/media/certificateimage.jpg": "/static/media/certificateimage.00733d8d125aca946fe6.jpg",
+    "static/media/miniproject.jpg": "/static/media/miniproject.2c2f35d331952ef28034.jpg",
     "static/media/envoy login.png": "/static/media/envoy login.2ce15887b52f31714ad3.png",
     "static/media/shoeMobile.png": "/static/media/shoeMobile.7f1699615d1a1ad39070.png",
+    "static/media/WhatsApp Image 2023-04-07 at 6.08.36 PM (1).jpeg": "/static/media/WhatsApp Image 2023-04-07 at 6.08.36 PM (1).16c0e40386e0e59e72dd.jpeg",
     "static/media/image.jpg": "/static/media/image.de7d44aa6d186fdba7ba.jpg",
     "static/media/vscode.png": "/static/media/vscode.d793c746fbc937f66e3d.png",
     "static/media/REACT.png": "/static/media/REACT.e4948649a6fa25fde537.png",
     "static/media/node.webp": "/static/media/node.f36babd224f97dd7fe96.webp",
     "index.html": "/index.html",
-    "main.967d048c.css.map": "/static/css/main.967d048c.css.map",
-    "main.12811d7c.js.map": "/static/js/main.12811d7c.js.map",
+    "main.904e2d75.css.map": "/static/css/main.904e2d75.css.map",
+    "main.81b324af.js.map": "/static/js/main.81b324af.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.967d048c.css",
-    "static/js/main.12811d7c.js"
+    "static/css/main.904e2d75.css",
+    "static/js/main.81b324af.js"
   ]
 }
